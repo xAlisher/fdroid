@@ -1,0 +1,38 @@
+{
+  "/etc/issue.net": "Ubuntu 24.04.4 LTS",
+  "antiFeatures": {},
+  "apksigner": "/home/alisher/Android/Sdk/build-tools/36.0.0/apksigner",
+  "archivePolicy0": [],
+  "commandLine": [
+    "/home/alisher/.local/bin/fdroid update",
+    "--pretty"
+  ],
+  "disabled": [],
+  "endTimestamp": 1783356068447,
+  "failedBuilds": {},
+  "jarsigner": "/usr/lib/jvm/java-17-openjdk-amd64/bin/jarsigner",
+  "keytool": "/usr/lib/jvm/java-17-openjdk-amd64/bin/keytool",
+  "needsUpdate": [
+    "com.boothandroid",
+    "com.receiverandroid"
+  ],
+  "noPackages": [
+    "com.boothandroid",
+    "com.receiverandroid"
+  ],
+  "noUpdateCheck": [
+    "com.boothandroid",
+    "com.receiverandroid"
+  ],
+  "stages": {
+    "delete_disabled_builds": 1783356065725,
+    "index.make repo": 1783356066605,
+    "prepare_apps repo": 1783356066604,
+    "process_apks": 1783356065725,
+    "read_added_date_from_all_apks": 1783356066604,
+    "remove_apks": 1783356066604,
+    "scan_repo_files": 1783356066603
+  },
+  "startTimestamp": 1783352465000,
+  "subcommand": "update"
+}

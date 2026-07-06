@@ -1,0 +1,16 @@
+Categories:
+  - Internet
+  - Multimedia
+License: MIT
+AuthorName: xAlisher
+SourceCode: https://github.com/xAlisher/receiver-android
+IssueTracker: https://github.com/xAlisher/receiver-android/issues
+Name: Receiver
+Summary: Discover & listen to decentralised radio
+Description: |-
+  Discover and listen to decentralised, anonymous radio stations over
+  Tor + Logos Messaging. Stations are found over a peer-to-peer directory and
+  streamed over Tor onion services — no central server. The listening mirror
+  of Booth.
+AutoUpdateMode: None
+UpdateCheckMode: None

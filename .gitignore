@@ -1,0 +1,9 @@
+config.yml
+keystore.p12
+keystore.p12.*
+*.jks
+.fdroid.*
+tmp/
+srclibs/
+unsigned/
+archive/

@@ -1,0 +1,142 @@
+{
+  "repo": {
+    "timestamp": 1783356066000,
+    "version": 20002,
+    "name": "Logos on Android",
+    "icon": "icon.png",
+    "address": "https://xalisher.github.io/fdroid/repo",
+    "description": "Decentralised, anonymous radio for Android over Tor + Logos Messaging \u2014 Booth (broadcast a station) and Receiver (discover & listen). Self-hosted, no Google."
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "authorName": "xAlisher",
+      "categories": [
+        "Internet",
+        "Multimedia"
+      ],
+      "suggestedVersionCode": "1",
+      "description": "Broadcast a decentralised, anonymous radio station from your phone: create a\nstation, speak into the mic, and listeners tune in over Tor + Logos Messaging.\n\nThree-phase flow (Setup \u2192 Staging \u2192 Live) with a live-status dashboard, a\nreal-time mic waveform, mute, and identity tiers: Anon, on-device key, or a\nhardware Keycard over NFC. The broadcasting mirror of Receiver.",
+      "issueTracker": "https://github.com/xAlisher/booth-android/issues",
+      "license": "MIT",
+      "name": "Booth",
+      "sourceCode": "https://github.com/xAlisher/booth-android",
+      "summary": "Broadcast a decentralised anonymous radio station",
+      "added": 1783356066000,
+      "packageName": "com.boothandroid",
+      "lastUpdated": 1783356066000
+    },
+    {
+      "authorName": "xAlisher",
+      "categories": [
+        "Internet",
+        "Multimedia"
+      ],
+      "suggestedVersionCode": "2",
+      "description": "Discover and listen to decentralised, anonymous radio stations over\nTor + Logos Messaging. Stations are found over a peer-to-peer directory and\nstreamed over Tor onion services \u2014 no central server. The listening mirror\nof Booth.",
+      "issueTracker": "https://github.com/xAlisher/receiver-android/issues",
+      "license": "MIT",
+      "name": "Receiver",
+      "sourceCode": "https://github.com/xAlisher/receiver-android",
+      "summary": "Discover & listen to decentralised radio",
+      "added": 1783356066000,
+      "packageName": "com.receiverandroid",
+      "lastUpdated": 1783356066000
+    }
+  ],
+  "packages": {
+    "com.boothandroid": [
+      {
+        "added": 1783356066000,
+        "apkName": "booth-android-0.1.0-arm64.apk",
+        "hash": "4d8079dc3ddc2f380d3153453472dfc4b04cdef4c20ff2ee083676c666a49492",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.boothandroid",
+        "sig": "b6e0344e9cbcbcd6f20dc82b513925f6",
+        "signer": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+        "size": 49766209,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.NFC",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.boothandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "0.1.0"
+      }
+    ],
+    "com.receiverandroid": [
+      {
+        "added": 1783356066000,
+        "apkName": "receiver-android-1.0.1-arm64.apk",
+        "hash": "f96b305a86a6bf1c53b7c4b99013ce5fbcca67deee87d958694e28da6e4f2800",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.receiverandroid",
+        "sig": "b6e0344e9cbcbcd6f20dc82b513925f6",
+        "signer": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+        "size": 37237746,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.receiverandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 2,
+        "versionName": "1.0.1"
+      }
+    ]
+  }
+}

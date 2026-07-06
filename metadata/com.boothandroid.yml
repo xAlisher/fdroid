@@ -1,0 +1,18 @@
+Categories:
+  - Internet
+  - Multimedia
+License: MIT
+AuthorName: xAlisher
+SourceCode: https://github.com/xAlisher/booth-android
+IssueTracker: https://github.com/xAlisher/booth-android/issues
+Name: Booth
+Summary: Broadcast a decentralised anonymous radio station
+Description: |-
+  Broadcast a decentralised, anonymous radio station from your phone: create a
+  station, speak into the mic, and listeners tune in over Tor + Logos Messaging.
+
+  Three-phase flow (Setup → Staging → Live) with a live-status dashboard, a
+  real-time mic waveform, mute, and identity tiers: Anon, on-device key, or a
+  hardware Keycard over NFC. The broadcasting mirror of Receiver.
+AutoUpdateMode: None
+UpdateCheckMode: None
