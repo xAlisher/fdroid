@@ -8,8 +8,16 @@
     "--pretty"
   ],
   "disabled": [],
-  "endTimestamp": 1783356068447,
+  "endTimestamp": 1783357354095,
   "failedBuilds": {},
+  "fdroiddata": {
+    "commitId": "ecae09324a939b5f5648f9fe5553c5439e1b9052",
+    "isDirty": true,
+    "modifiedFiles": [
+      "index.html"
+    ],
+    "untrackedFiles": []
+  },
   "jarsigner": "/usr/lib/jvm/java-17-openjdk-amd64/bin/jarsigner",
   "keytool": "/usr/lib/jvm/java-17-openjdk-amd64/bin/keytool",
   "needsUpdate": [
@@ -25,14 +33,14 @@
     "com.receiverandroid"
   ],
   "stages": {
-    "delete_disabled_builds": 1783356065725,
-    "index.make repo": 1783356066605,
-    "prepare_apps repo": 1783356066604,
-    "process_apks": 1783356065725,
-    "read_added_date_from_all_apks": 1783356066604,
-    "remove_apks": 1783356066604,
-    "scan_repo_files": 1783356066603
+    "delete_disabled_builds": 1783357352249,
+    "index.make repo": 1783357352250,
+    "prepare_apps repo": 1783357352249,
+    "process_apks": 1783357352249,
+    "read_added_date_from_all_apks": 1783357352249,
+    "remove_apks": 1783357352249,
+    "scan_repo_files": 1783357352249
   },
-  "startTimestamp": 1783352465000,
+  "startTimestamp": 1783353752000,
   "subcommand": "update"
 }
