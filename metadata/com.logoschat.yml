@@ -1,0 +1,22 @@
+Categories:
+  - Internet
+License: MIT
+AuthorName: xAlisher
+SourceCode: https://github.com/xAlisher/logos-chat-android
+IssueTracker: https://github.com/xAlisher/logos-chat-android/issues
+Name: Peers
+Summary: Private peer-to-peer messenger over Logos, MeshCore & Bluetooth
+Description: |-
+  A private, peer-to-peer messenger. Your identity lives on this device — no phone
+  number, no account, no central server, no Google.
+
+  Reach people over three transports: Logos (a pure-Rust delivery node), MeshCore
+  (LoRa radio), or Bluetooth mesh — one shared timeline, colour-coded by transport.
+  1:1 and group chats are end-to-end encrypted with MLS; send voice notes, images,
+  camera photos, and location. Works offline over Bluetooth/LoRa when the network
+  is down.
+
+  Your messages, encryption keys, and identity are encrypted at rest (Android
+  Keystore + SQLCipher). Optional PIN lock with an auto-lock and duress-wipe.
+AutoUpdateMode: None
+UpdateCheckMode: None
