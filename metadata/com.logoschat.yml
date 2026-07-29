@@ -2,8 +2,9 @@ Categories:
   - Internet
 License: MIT
 AuthorName: xAlisher
-SourceCode: https://github.com/xAlisher/logos-chat-android
-IssueTracker: https://github.com/xAlisher/logos-chat-android/issues
+SourceCode: https://github.com/xAlisher/peers
+IssueTracker: https://github.com/xAlisher/peers/issues
+WebSite: https://peers.tech
 Name: Peers
 Summary: Private peer-to-peer messenger over Logos, MeshCore & Bluetooth
 Description: |-
