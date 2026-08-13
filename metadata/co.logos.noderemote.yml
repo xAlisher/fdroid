@@ -1,0 +1,31 @@
+Categories:
+  - Internet
+  - System
+License: MIT
+AuthorName: xAlisher
+SourceCode: https://github.com/xAlisher/node-remote
+IssueTracker: https://github.com/xAlisher/node-remote/issues
+Name: Node Remote
+Summary: Watch and control your Logos node over Tor
+Description: |-
+  Watch, control and receive notifications from a Logos blockchain node running
+  in Basecamp on your desktop — from your phone, over a Tor v3 onion service
+  with client authorization.
+
+  Pair by scanning a QR code shown on the desktop. From then on the phone can
+  see the node's height, peers, sync state, blend status, balance and errors,
+  and can start or stop it. No account, no server in the middle, no port
+  forwarding.
+
+  Tor is embedded in the app — Orbot is not required, and there are no Google
+  Play Services. There is no analytics, no telemetry and no network destination
+  other than your own node.
+
+  It does NOT hide from your internet provider that you use Tor, on either end.
+  See the privacy documentation for what the onion service does and does not
+  protect.
+
+  NOT AN OFFICIAL LOGOS PRODUCT. Independent project, not endorsed by or
+  affiliated with Logos or IFT.
+AutoUpdateMode: None
+UpdateCheckMode: None
