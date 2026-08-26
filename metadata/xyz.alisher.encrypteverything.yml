@@ -1,0 +1,17 @@
+AuthorName: xAlisher
+WebSite: https://xalisher.github.io/encrypt-everything-promo/
+Name: Encrypt Everything
+Summary: Encrypt files with keys derived on a Status Keycard
+Description: |-
+  Encrypt files, photos, documents and ZIP archives into shareable ciphertext,
+  then decrypt them with a compatible Status Keycard.
+
+  Domain-specific EIP-1581 keys are derived on the card. The app does not store
+  the derived private key in Android Keystore, and no domain is configured by
+  default. Saving, sharing and opening decrypted results stays under your
+  control.
+
+  This is an early alpha. A compatible Status Keycard and Encrypt Everything
+  applet are required. Keep original files until you have verified decryption.
+AutoUpdateMode: None
+UpdateCheckMode: None
